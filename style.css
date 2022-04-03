@@ -96,3 +96,43 @@ a:hover,a:active
 {
     font-style: italic;
 }
+
+.section1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 100px;
+}
+
+.section1 .boxsection
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+.section1 .title
+{
+    padding: 20px 0 50px 0;
+}
+.box
+{
+    height: 170px;
+    width: 170px;
+    justify-content: space-between;
+
+    border-radius: 20px;
+    border: 5px solid #3882f6;
+}
+
+.card
+{
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
